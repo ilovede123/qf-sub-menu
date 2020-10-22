@@ -434,12 +434,12 @@ if (typeof window !== 'undefined') {
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.function.name.js
 var es_function_name = __webpack_require__("b0c0");
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"5e750889-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/subMenu.vue?vue&type=template&id=08fcb94f&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"subMenu"},_vm._l((_vm.sideMenu),function(item){return _c('div',[(item.children&&item.children.length>0)?_c('el-submenu',{attrs:{"index":"1"}},[_c('template',{slot:"title"},[_c('i',{class:item.meta.icon,staticStyle:{"margin-right":"10px","font-size":"20px"}}),_c('span',{attrs:{"slot":"title"},slot:"title"},[_vm._v(_vm._s(item.meta.name))])]),_c('el-menu-item-group',[_c('sub-menu',{attrs:{"sideMenu":item.children,"parentPath":'/'+item.path}})],1)],2):_c('el-menu-item',{attrs:{"index":_vm.parentPath+'/'+item.path},on:{"click":function($event){return _vm.jumpRoute(item.name)}}},[_c('i',{class:item.meta.icon,staticStyle:{"margin-right":"10px","font-size":"20px"}}),_c('span',{attrs:{"slot":"title"},slot:"title"},[_vm._v(_vm._s(item.meta.name))])])],1)}),0)}
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"7df98170-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/subMenu.vue?vue&type=template&id=7b05058b&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"subMenu"},_vm._l((_vm.sideMenu),function(item){return _c('div',[(item.children&&item.children.length>0)?_c('el-submenu',{attrs:{"index":"1"}},[_c('template',{slot:"title"},[_c('i',{class:item.meta.icon,staticStyle:{"margin-right":"10px","font-size":"20px"}}),_c('span',{attrs:{"slot":"title"},slot:"title"},[_vm._v(_vm._s(item.meta.name))])]),_c('el-menu-item-group',[_c('qf-sub-menu',{attrs:{"sideMenu":item.children,"parentPath":'/'+item.path}})],1)],2):_c('el-menu-item',{attrs:{"index":_vm.parentPath+'/'+item.path},on:{"click":function($event){return _vm.jumpRoute(item.name)}}},[_c('i',{class:item.meta.icon,staticStyle:{"margin-right":"10px","font-size":"20px"}}),_c('span',{attrs:{"slot":"title"},slot:"title"},[_vm._v(_vm._s(item.meta.name))])])],1)}),0)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/subMenu.vue?vue&type=template&id=08fcb94f&
+// CONCATENATED MODULE: ./src/components/subMenu.vue?vue&type=template&id=7b05058b&
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/subMenu.vue?vue&type=script&lang=js&
 //
@@ -470,7 +470,7 @@ var staticRenderFns = []
 //
 //
 /* harmony default export */ var subMenuvue_type_script_lang_js_ = ({
-  name: 'sub-menu',
+  name: 'qf-sub-menu',
   // 给组件取名字之后 可以递归
   props: {
     parentPath: {

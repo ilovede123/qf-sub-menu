@@ -1,6 +1,6 @@
 {
   "name": "qf-sub-menu",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "这是一个基于element二次封装的subMeny",
   "main": "index.js",
   "scripts": {

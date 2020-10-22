@@ -96,10 +96,10 @@ import App from "./App"
 // 引入element-ui
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
-import subMenu from "qf-sub-menu" //引入我们的组件
+import qfSubMenu from "qf-sub-menu" //引入我们的组件
 Vue.use(ElementUI)
 //使用Vue.use()将组件注入到所有的子组件
-Vue.use(subMenu)
+Vue.use(qfSubMenu)
 
 new Vue({
 	h=>h(App)
@@ -120,7 +120,7 @@ new Vue({
                  active-text-color="#E47833"
                  :collapse="isCollapse">
     	//我们的组件
-          <sub-menu :sideMenu='sideMenu'></sub-menu>
+          <qf-sub-menu :sideMenu='sideMenu'></qf-sub-menu>
         </el-menu>
 ```
 
